@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T08:17:07.115Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3poKmcFK4D6GDir8hYng" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-08T08:28:56.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="mgBu1pG2mSci8iqm2208" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1298" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -179,8 +179,10 @@
         <mxCell id="ftfC63ZBlbfTwAoboH8k-60" value="作弊识别挖掘" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="940" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ftfC63ZBlbfTwAoboH8k-64" value="关键指标" style="swimlane;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="210" width="230" height="200" as="geometry" />
+        <mxCell id="ftfC63ZBlbfTwAoboH8k-64" value="坏账关键指标" style="swimlane;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="245" width="230" height="200" as="geometry">
+            <mxRectangle x="695" y="215" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ftfC63ZBlbfTwAoboH8k-65" value="拦截率=&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ftfC63ZBlbfTwAoboH8k-64">
           <mxGeometry x="37" y="50" width="70" height="30" as="geometry" />
@@ -207,10 +209,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ftfC63ZBlbfTwAoboH8k-83" value="完成单的金额预估总价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ftfC63ZBlbfTwAoboH8k-64">
-          <mxGeometry x="100" y="162.5" width="140" height="30" as="geometry" />
+          <mxGeometry x="90" y="162.5" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ftfC63ZBlbfTwAoboH8k-84" value="坏账金额" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ftfC63ZBlbfTwAoboH8k-64">
-          <mxGeometry x="125" y="137.5" width="70" height="30" as="geometry" />
+          <mxGeometry x="115" y="140" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ftfC63ZBlbfTwAoboH8k-85" value="" style="endArrow=none;html=1;rounded=0;entryX=1.021;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ftfC63ZBlbfTwAoboH8k-64">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -218,13 +220,13 @@
             <mxPoint x="223.94000000000005" y="166" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ftfC63ZBlbfTwAoboH8k-69" value="拦截的订单数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="815" y="245" width="110" height="30" as="geometry" />
+        <mxCell id="ftfC63ZBlbfTwAoboH8k-69" value="拦截的订单数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ftfC63ZBlbfTwAoboH8k-64">
+          <mxGeometry x="100" y="30" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ftfC63ZBlbfTwAoboH8k-75" value="" style="endArrow=none;html=1;rounded=0;entryX=0.927;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="ftfC63ZBlbfTwAoboH8k-69">
+        <mxCell id="ftfC63ZBlbfTwAoboH8k-75" value="" style="endArrow=none;html=1;rounded=0;entryX=0.927;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.018;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ftfC63ZBlbfTwAoboH8k-64" source="ftfC63ZBlbfTwAoboH8k-69" target="ftfC63ZBlbfTwAoboH8k-69">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="827" y="275" as="sourcePoint" />
-            <mxPoint x="897" y="275" as="targetPoint" />
+            <mxPoint x="117" y="-55" as="sourcePoint" />
+            <mxPoint x="187" y="-55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
