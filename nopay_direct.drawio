@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T11:22:38.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7mn57uJaE2eeD2EIOgQf" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T07:15:14.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="bv5x9fl6oLZmfsju74l0" version="20.2.3" type="github">
   <diagram id="PICH8i762kvIZ7n7abO-" name="第 1 页">
-    <mxGraphModel dx="1272" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CefDflfBtN3rUSN24rDO-1" value="冷启动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CefDflfBtN3rUSN24rDO-1" value="冷启动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="230" y="290" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="CefDflfBtN3rUSN24rDO-2" value="用户平台来源&lt;br&gt;小程序，点评，&lt;br&gt;美团，打车" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CefDflfBtN3rUSN24rDO-4" value="正负样本不均衡问题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CefDflfBtN3rUSN24rDO-4" value="正负样本不均衡问题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="110" y="170" width="120" height="420" as="geometry" />
         </mxCell>
         <mxCell id="CefDflfBtN3rUSN24rDO-5" value="用户设备来源&lt;br&gt;ios/安卓/html" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -46,22 +46,22 @@
         <mxCell id="CefDflfBtN3rUSN24rDO-15" value="时间线&lt;br&gt;节假日，周末，&lt;br&gt;工作日" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CefDflfBtN3rUSN24rDO-16" value="用户来源差异" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CefDflfBtN3rUSN24rDO-16" value="用户来源差异" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="230" y="170" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="CefDflfBtN3rUSN24rDO-17" value="业务投入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CefDflfBtN3rUSN24rDO-17" value="业务投入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="230" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CefDflfBtN3rUSN24rDO-18" value="周期性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CefDflfBtN3rUSN24rDO-18" value="周期性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="230" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CefDflfBtN3rUSN24rDO-19" value="more......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CefDflfBtN3rUSN24rDO-19" value="more......" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="230" y="530" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CefDflfBtN3rUSN24rDO-20" value="多模型精细化建模" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CefDflfBtN3rUSN24rDO-20" value="多模型精细化建模" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="470" y="170" width="120" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="CefDflfBtN3rUSN24rDO-21" value="大模型统一化建模" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CefDflfBtN3rUSN24rDO-21" value="大模型统一化建模" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="590" y="170" width="120" height="420" as="geometry" />
         </mxCell>
       </root>
